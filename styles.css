@@ -1,0 +1,720 @@
+
+* {
+	box-sizing: border-box;
+	font-family: arial, 'sans-serif';
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: #999; 
+}
+
+#about {  
+	background: #111;;
+	border-radius: .5rem;
+	color: #fff;
+	height: 30rem;
+	padding: 3.5rem; 
+	margin: .5rem;
+	width: 25rem; 
+}
+
+#about h3 {  
+	color: #ddd;
+	font-family: Lucida Console;
+	font-size: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+
+#about p {  
+	color: #ddd;
+	line-height: 2.3rem;
+}
+
+#cert { 
+	color: #333;
+	font-size: 2.5rem; 
+	font-family: Lucida Console;
+	text-align: center;
+}
+  
+.certificates {  
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: .5rem;
+	height: 30rem;
+	padding: 2.5rem;
+	margin: .5rem; 
+}
+
+.certificates:nth-child(3) { 
+	height: 28rem;
+	padding: 2.5rem;
+	margin: .5rem;
+	width: 30rem;
+} 
+
+#certificates h2 { 
+	transform: translateY(-.5rem);
+}
+
+#certificates h2 {
+	color: #333;
+	font-family: Lucida Console;  
+	text-align: center;
+}
+
+#certificates h3 {
+	 text-align: center;
+}
+
+#certificates img { 
+	margin: .5rem;
+	width: 20rem;	
+}
+ 
+#certificates p {
+	color: tomato; 
+	font-size: 1.5rem;
+	font-style: italic;
+	padding: 1.5rem; 
+	text-align: center;
+}
+
+#cert-wrapper {
+	background: #fff;
+	padding: 2.5rem; 
+	margin: 5.5rem 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#copy {
+	color: #333;
+	text-align: center;
+}
+
+form {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: .5rem;
+	color: #333;
+	height: 52rem;
+	margin-bottom: 2rem;
+	padding: 1.5rem; 
+	width: 18.5rem;  
+}
+
+form input {
+	padding: .5rem;
+	margin-top: 1.5rem;   
+	width: 15rem;  
+}
+
+form p {  
+	margin-bottom: 3rem;   
+}
+
+form textarea {
+	height: 10rem;
+	max-height: 10rem;
+	min-height: 10rem;
+	max-width: 15rem;
+	min-width: 15rem;
+	padding: .5rem;
+	width: 15rem;  
+}
+
+#form {   
+	background: linear-gradient(to right, #ddd, #111);
+	flex-wrap: wrap;
+	padding: 5.5rem;
+	margin: 1.5rem 0;  
+}
+  
+footer {
+	background: #111;
+	display: flex;
+	justify-content: center; 
+	margin-top: 5.5rem;
+} 
+ 
+footer a {    
+	color: #ddd;
+	text-decoration: none;
+}
+  
+footer a:hover {    
+	text-decoration: underline;
+	text-decoration-color: tomato;
+	transition: 1s;
+}
+ 
+footer ul {
+	color: #eee;
+	line-height: 1.5rem;
+	list-style: none; 
+}
+
+#footer div { 
+	float: left;
+	height: 14rem;
+	margin: 2rem;
+	width: 10rem;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#get-in-touch {
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #333;
+	margin-left: 2rem;	
+	padding: 2rem;
+}
+ 
+#get-in-touch a {
+	color: #333;
+}
+
+#get-in-touch h1, p {
+	line-height: 3.5rem;	
+}
+
+#get-in-touch img {
+	margin: .5rem;
+	width: 1.5rem;	
+	transform: translateY(.9rem);
+}
+
+#get-in-touch img#fb { 
+	width: 2rem;	
+	transform: translateY(.5676rem);
+}
+	
+h1 {
+	margin-bottom: 1.5rem;
+}
+
+h2 {
+	padding: 1.5rem;
+}
+    
+#load {
+	align-items: center;	
+	display: flex;
+	justify-content: center; 
+	height: 100vh;  
+	position: absolute;
+	width: 100vw;
+}
+       
+#load h2 {
+	color: #333;
+	font-family: verdana;
+	font-style: italic;
+}
+     
+.load {
+	align-items: center;
+	animation-name: load;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;  
+	border-radius: 50%; 
+	height: 3rem; 
+	margin: .5rem;
+	width: 3rem;
+}
+       
+.load:nth-child(2) {
+	align-items: center;
+	animation-name: load2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	background: #a31aff;  
+	border-radius: 50%; 
+	height: 1.5rem; 
+	margin: .5rem;
+	width: 1.5rem;
+} 
+   
+.load:nth-child(3) {
+	align-items: center;
+	animation-name: load3;
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+	background: #e0b3ff; 
+	border-radius: 50%; 
+	height: 2rem; 
+	margin: .5rem;
+	width: 2rem;
+}     
+ 
+@keyframes load {
+	0% {margin-bottom: 0}
+	50% { }
+	100% {margin-bottom: 0}
+}
+
+@keyframes load2 {
+	0% {margin-bottom: 0}
+	50% {margin-bottom: 16rem; transform: rotateX(360deg)}
+	100% {margin-bottom: 0}
+}
+
+@keyframes load3 {
+	0% {margin-bottom: 0}
+	50% {margin-bottom: 10rem; transform: rotateX(360deg)}
+	100% {margin-bottom: 0}
+}
+ 
+main {    
+	display: none;
+	margin-bottom: -7rem;
+	overflow: hidden;  
+}
+    
+#main-2 {    
+	background: url('images/web-dev.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+ 
+nav {
+	background: #111;
+	height: 3.5rem;
+	padding-inline: 1.5rem;
+	position: fixed; 
+	width: 100%;
+	z-index: 120;
+}
+
+nav a {   
+	color: #eee; 
+	font-family: Lucida Console;
+	text-decoration: none;
+}
+ 
+nav a:hover {    
+	text-decoration: underline;
+	text-decoration-color: tomato;
+	transition: 1s;
+}
+ 
+nav h1 {   
+	color: #eee; 
+	display: inline-block;
+	margin-bottom: -1.8rem;
+	padding: .5rem;
+	transform: translate(-1.5rem);
+}
+
+#nav-icon {
+	position: absolute;
+	right: .6rem;
+	top: .5rem;
+}
+ 
+nav ul {   
+	float: right;
+	transform: translateY(1.1rem);
+}
+
+nav ul li {  
+	display: inline;  
+	margin-inline: .5rem;
+	list-style: none;
+}
+
+.nav-bar-sm-screen { 
+	display: none; 
+	height: 100vh;
+	position: fixed;
+	top: 3rem;
+	width: 97.5vw;
+}
+ 
+.nav-bar-sm-screen ul {
+	background: rgba(0, 0, 0, .958); 
+}
+
+.nav-bar-sm-screen ul a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+.nav-bar-sm-screen ul li {
+	padding: .5rem;
+}
+
+.nav-bar-sm-screen ul li:hover { 
+	text-decoration: underline;
+	text-decoration-color: tomato;
+	transition: 1s;
+}
+
+#pg-1 {
+	align-items: center; 
+	background: url('images/bg.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 100vh; 
+	width: 100vw;
+}
+
+#pg-1 section {
+	border: 1px solid #000;
+}
+ 
+#pg-2 { 
+	background: #fff; 
+	padding-inline: 1rem;
+	padding-block: 5.5rem;
+}
+
+#pg-2 h1 { 
+	color: #333;
+	font-size: 2.5rem;
+}
+
+#pg-2 h1, #pg-3 { 
+	font-family: Lucida Console;
+	text-align: center;
+}
+ 
+#pg-3 { 
+	background: #fff;
+	margin: 7rem 0rem;
+	padding-inline: 1rem;
+	padding-block: 5.5rem;
+}
+
+#pg-3 h1 { 
+	color: #333;
+	font-family: Lucida Console;
+	font-size: 2.5rem;
+}
+
+#pg-4 {  
+	background: #ddd;
+	color: #333; 
+	padding: 3rem;
+}
+
+#pg-4 h2 {
+	font-family: Lucida Console;
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+#pg-4 img {
+	margin: 2rem;
+	width: 10rem;
+}
+
+#pg-4 p { 
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 4.5rem; 
+} 
+
+#projects { 
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#projects img:hover , .services:hover, #skills img:hover , #certificates img:hover { 
+	border: 1px solid tomato;
+	border-radius: .5rem;
+	cursor: pointer;
+	opacity: .8;
+	transition: 1s;
+}
+
+#project-1,
+#project-2,  
+#project-3 {    
+	height: 42rem;
+	margin:.5rem;
+}
+
+#project-1 p, 
+#project-2 p,
+#project-3 p {   
+	max-width: 20rem;
+	padding: .5rem;
+}
+
+#project-1,
+#project-2,  
+#project-3,
+#web-dev,
+#ui,
+#ux {    
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: .5rem;
+	padding: .6rem;
+}
+
+#projects h2 {
+	color: tomato;
+	font-family: Lucida Console; 
+	text-align: center;
+}
+
+.projects img { 
+	border: 1px solid #ddd;
+	border-top: none;
+	float: left; 
+	height: 15rem;
+	margin-inline: .5rem;
+	margin-bottom: 1rem;
+	width: 20rem;
+}
+
+.p-text {
+	line-height: 2.3rem;
+}
+ 
+#send {
+	color: tomato;
+	font-weight: bold;
+	padding: .5rem;
+}
+
+#services {
+	align-items: center;
+	display: flex;
+	justify-content: center;	
+}
+
+.services {  
+	border-radius: .5rem;
+	height: 25rem;
+	margin: .5rem;
+	width: 20rem;	
+}
+
+.services h2 { 
+	color: tomato;
+	font-family: Lucida Console;
+	text-align: center;
+	transform: translateY(2rem);
+}
+
+.services img {
+	float: left;
+	margin-inline: 5.5rem; 
+	margin-top: 1.59rem;
+	width: 10rem;
+}
+
+.services p { 
+	line-height: 2.3rem;
+	text-align: left;
+}
+
+#side-links {  
+	display: flex;
+}
+
+#side-links div {  
+	margin: 2.5rem;
+}
+
+#side-links img {   
+	width: 3rem;
+}
+ 
+.show {
+	display: block;
+}
+
+#skills, #certificates, #footer  {   
+	display: flex; 
+	flex-flow: row wrap; 
+	justify-content: center;
+}
+
+#skills div {   
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: .5rem; 
+	margin: 1.59rem;
+	padding: 1.5rem;
+	
+}
+
+#ux h2 {
+	transform: translateY(.5rem); 
+}
+
+#ux-img {
+	margin-top: 1.59rem;   
+	width: 15rem;
+}
+
+.ux-txt {  
+	transform: translateY(-1.55rem);
+}
+
+#ui,
+#ux,
+#web-dev {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+	height: 44rem;
+}
+
+#ui {
+    border-bottom: 0;
+}
+
+#web-dev img { 
+	width: 15rem;
+}
+  
+#welcome-text h1 { 
+	background: #fff;
+	border-radius: .2rem;
+	opacity: .4;
+}
+
+#welcome-text ul {
+	position: absolute;
+	left: 5rem; 
+	top: 22rem;
+}
+
+#welcome-text li {
+	animation: welcome steps(25);
+	animation-duration: 3s; 
+	animation-iteration-count: infinite;
+	border-right: 2px solid #000;
+	color: #eee;
+	font-size: 2rem;
+	list-style: none;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#whats-app {
+	transform: translate(-6.5rem, -2rem);
+}
+ 
+@keyframes welcome {
+	0% {width: 0ch}
+	35% {width:25ch}
+	50% {width:29ch}
+	70% {width:25ch}
+	100% {width:0ch}
+}
+#wrap-about {
+	background: #111;
+	height: 43rem;
+}
+
+#wrap-about, #form {
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 1168px) {    
+	#pg-2 {
+		position: relative;
+	}
+ 
+	#projects, #services {
+		display: flex;
+		flex-flow: row wrap;
+	}  
+}
+
+@media (max-width: 1053px) {    
+	#get-in-touch {
+		 margin-left: 0;
+	} 
+} 
+
+@media (min-width: 848px) {
+	.nav-bar-sm-screen, #nav-icon { 
+		 display: none;
+	} 
+
+}
+
+@media (max-width: 850px) { 
+	#side-links, nav ul {
+		display: none; 
+		
+	}
+
+}
+
+@media (max-width: 768px) { 
+	#home-right img {
+		display: none; 
+		
+	}
+
+}
+
+@media (max-width: 604px) { 
+	#welcome-text ul li {
+		font-size: 1rem; 
+		
+	}
+
+}
+ 
+@media (max-width: 404px) { 
+	#copy {
+		font-size: .9rem; 
+		
+	}
+
+}  
+@media (max-width: 395px) { 
+	#cert {
+		transform: translateX(-2.5rem); 
+		
+	}
+
+}   
+
+@media (max-width: 336px) { 
+	#wrap-about {
+		  height: 55rem; 
+		
+	}
+
+} 
+
+@media (max-width: 325px) { 
+	nav h1 {
+		font-size: unset; 
+		
+	}
+
+} 
+
+@media (max-width: 346px) { 
+	nav h1 {
+		transform: translate(-.5rem); 
+		
+	}
+
+}     
+
