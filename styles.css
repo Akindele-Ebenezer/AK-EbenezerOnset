@@ -11,7 +11,7 @@ a:hover {
 }
 
 #about {  
-	background: #111;;
+	background: #111;
 	border-radius: .5rem;
 	color: #fff;
 	height: 30rem;
@@ -677,6 +677,12 @@ nav ul li {
 	}
 
 }
+
+@media (max-width: 419px) {
+	nav h1 {
+		transform: translateX(-2rem);		
+	}
+}
  
 @media (max-width: 404px) { 
 	#copy {
@@ -684,15 +690,23 @@ nav ul li {
 		
 	}
 
-}  
+} 
+ 
 @media (max-width: 395px) { 
 	#cert {
 		transform: translateX(-2.5rem); 
 		
 	}
 
-}   
+}  
 
+@media (max-width: 347px) {
+	nav h1 {
+		font-size: 1.4rem;
+		transform: translateX(-3rem);		
+	}
+}
+ 
 @media (max-width: 336px) { 
 	#wrap-about {
 		  height: 55rem; 
