@@ -37,7 +37,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = $subject;
-    $mail->Body    = $message;
+    $mail->Body    = "From: " . $name . "<br>" . "Email: " . $email . "<br>" . $message;
     $mail->AltBody = 'Bye!';
 
     $mail->send();
