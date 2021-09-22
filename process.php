@@ -31,8 +31,8 @@ try {
     //Recipients
     $mail->setFrom($email, $name);
     $mail->addAddress('tobi.akindele@gmail.com', 'Ebenezer');     //Add a recipient
-    $mail->addAddress('tobi.akindele@gmail.com');               //Name is optional
-    $mail->addReplyTo('tobi.akindele@gmail.com', 'Information'); 
+   // $mail->addAddress('tobi.akindele@gmail.com');               //Name is optional
+    $mail->addReplyTo($email); 
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
