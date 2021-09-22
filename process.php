@@ -45,6 +45,6 @@ try {
 	echo "<p style='font-family: verdana'>Thanks for your time, " . '<strong>' . strtoupper($name) . '</strong>' . '.' . " I'll get back to you.</p> <hr>";
 	echo "<p style='font-family: verdana'><a href='index.php'><strong>Go back to my SITE.</strong></a></p>";
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo "Message could not be sent.. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
