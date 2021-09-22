@@ -25,8 +25,8 @@ try {
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'tobi.akindele@gmail.com';                     //SMTP username
     $mail->Password   = 'ebenkeyz1*';                               //SMTP password
-    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
-    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom($email, $name);
@@ -45,6 +45,6 @@ try {
 	echo "<p style='font-family: verdana'>Thanks for your time, " . '<strong>' . strtoupper($name) . '</strong>' . '.' . " I'll get back to you.</p> <hr>";
 	echo "<p style='font-family: verdana'><a href='index.php'><strong>Go back to my SITE.</strong></a></p>";
 } catch (Exception $e) {
-    echo "Message could not be sent.. Mailer Error: {$mail->ErrorInfo}";
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
