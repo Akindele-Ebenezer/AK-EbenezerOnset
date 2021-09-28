@@ -203,7 +203,7 @@
 	 <div id='socila-media-links'>
 	  <ul id='socila-media-links'>
 	    <li><a href='mailto:tobi.akindele@gmail.com' target='_blank'>Gmail</a></li>
-	    <li><a href='https://github.com/Akindele-Ebenezer' target='_blank'>Github</a></li>
+	    <li>Github</li>
 	    <li><a href='https://www.linkedin.com/in/akindele-ebenezer-566a16b8/' target='_blank'>LinkedIn</a></li>
 	    <li><a href='https://www.facebook.com/akindele.ebenezer/' target='_blank'>Facebook</a></li>
 	    <li><a href='https://www.instagram.com/ebenezer__/?hl=en' target='_blank'>Instagram</a></li>
