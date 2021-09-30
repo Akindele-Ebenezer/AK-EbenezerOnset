@@ -38,7 +38,7 @@ a:hover {
 	font-family: Lucida Console;
 	text-align: center;
 }
-  
+ 
 .certificates {  
 	background: #fff;
 	border: 1px solid #ddd;
@@ -535,6 +535,14 @@ nav ul li {
  
 .show {
 	display: block;
+}
+
+#skills #sk-4-img {
+	margin-top: 6rem;
+}
+
+#skills #sk-5-img {
+	margin-top: 6rem;
 }
 
 #skills, #certificates, #footer  {   
