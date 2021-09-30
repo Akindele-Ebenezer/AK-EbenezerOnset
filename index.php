@@ -119,6 +119,16 @@
 		<img src='images/js-image.png' alt='html'>
 		<p>JAVASCRIPT</p>	
 	</div>
+
+	<div id='skill-4' class='skills'>
+		<img src='images/php-image.png' id="sk-4-img" alt='html'>
+		<p>PHP</p>	
+	</div>
+
+	<div id='skill-5' class='skills'>
+		<img src='images/figma-image.png' id="sk-5-img" alt='html'>
+		<p>FIGMA</p>	
+	</div>
      </div>
     </div>
  
@@ -129,8 +139,8 @@
 	</div>
     </div> 
   
-  <div id='cert-wrapper'>
-      <h2 id='cert'>CERTIFICATIONS</h2>
+  <div id='cert-wrapper'> 
+      <h2 id='cert'>CERTIFICATIONS</h2> 
     <div id='certificates'>
 	<div class='certificates'>
 		<h2>COURSERA</h2>  
