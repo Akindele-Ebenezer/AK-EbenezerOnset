@@ -39,7 +39,7 @@
 		<div id='welcome-text'> 
 			<ul>
 		    <h1> I'M AKINDELE EBENEZER</h1>
-				<li>FRONTEND DEVELOPER</li>
+				<li>FULL STACK DEVELOPER</li>
 				<li>PROGRAMMER</li> 
 				<li>UI/UX DESIGNER</li>
 				<li>WEB DEVELOPER</li> <br>
@@ -135,7 +135,7 @@
     <div id='wrap-about'>
 	<div id='about'>
 		<h3>About Me</h3>
-		<p>My name is <strong>Akindele Ebenezer Oluwatobi.</strong> I'm a <strong>Front End Developer.</strong><br><br> I build well organised and responsive websites from scratch just like this one. My hobbies are Coding, Programming, Playing Musical Instruments and Designing. <br><br>I started coding when I joined the tech industry and the journey has been superb.</p> 
+		<p>My name is <strong>Akindele Ebenezer Oluwatobi.</strong> I'm a <strong>Full Stack Developer.</strong><br><br> I build well organised and responsive websites from scratch just like this one. My hobbies are Coding, Programming, Playing Musical Instruments and Designing. <br><br>I started coding when I joined the tech industry and the journey has been superb.</p> 
 	</div>
     </div> 
   
