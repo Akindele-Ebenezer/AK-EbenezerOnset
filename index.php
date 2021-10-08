@@ -43,6 +43,7 @@
 				<li>PROGRAMMER</li> 
 				<li>UI/UX DESIGNER</li>
 				<li>WEB DEVELOPER</li> <br>
+				20k
 			</ul>
 		</div> 
 <div class='clear'></div>
