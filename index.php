@@ -102,34 +102,39 @@
 	</div>
     </div> 
     
-    <div id='pg-4'>
-      <h2>SKILLS</h2>
-       <div id='skills'>
-	<div id='skill' class='skills'>
-		<img src='images/html-image.png' alt='html'>
-		<p>HTML 5</p>	
-	</div>
+        <div id='pg-4'>
+      		<h2>SKILLS</h2>
+			<div id='skills'>
+				<div id='skill' class='skills'>
+					<img src='images/html-image.png' alt='html 5'>
+					<p>HTML 5</p>	
+				</div>
 
-	<div id='skill-2' class='skills'>
-		<img src='images/css-image.png' alt='html'>
-		<p>CSS 3</p>	
-	</div>
+				<div id='skill-2' class='skills'>
+					<img src='images/css-image.png' alt='css 3'>
+					<p>CSS 3</p>	
+				</div>
 
-	<div id='skill-3' class='skills'>
-		<img src='images/js-image.png' alt='html'>
-		<p>JAVASCRIPT</p>	
-	</div>
+				<div id='skill-3' class='skills'>
+					<img src='images/js-image.png' alt='javascript'>
+					<p>JAVASCRIPT</p>	
+				</div>
 
-	<div id='skill-4' class='skills'>
-		<img src='images/php-image.png' id="sk-4-img" alt='html'>
-		<p>PHP</p>	
-	</div>
+				<div id='skill-4' class='skills'>
+					<img src='images/php-image.png' id="sk-4-img" alt='php'>
+					<p>PHP</p>	
+				</div>
 
-	<div id='skill-5' class='skills'>
-		<img src='images/figma-image.png' id="sk-5-img" alt='html'>
-		<p>FIGMA</p>	
-	</div>
-     </div>
+				<div id='skill-5' class='skills'>
+					<img src='images/figma-image.png' id="sk-5-img" alt='figma'>
+					<p>FIGMA</p>	
+				</div>
+				
+				<div id='skill-6' class='skills'>
+					<img src='images/sql.jpg' id="sk-6-img" alt='sql'>
+					<p>SQL</p>	
+				</div>
+			</div>
     </div>
  
     <div id='wrap-about'>
