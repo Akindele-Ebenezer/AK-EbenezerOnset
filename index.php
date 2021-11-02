@@ -206,6 +206,7 @@
 	<div id='footer'>
 	 <div id='footer-nav'>
 	  <ul>
+		  <h1>LINKS</h1>
 	    <li><a href='#'>HOME</a></li>
 	    <li><a href='#wrap-about'>ABOUT</a></li>
 	    <li><a href='#pg-4'>SKILLS</a></li>
@@ -217,6 +218,7 @@
 
 	 <div id='socila-media-links'>
 	  <ul id='socila-media-links'>
+		  <h1>CONTACT ME</h1>
 	    <li><a href='mailto:tobi.akindele@gmail.com' target='_blank'>Gmail</a></li>
 	    <li>Github</li>
 	    <li><a href='https://www.linkedin.com/in/akindele-ebenezer-566a16b8/' target='_blank'>LinkedIn</a></li>
