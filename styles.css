@@ -638,6 +638,11 @@ nav ul li {
 	justify-content: center;
 }
 
+@media (max-width: 1720px) {
+	#skill-6 img {
+		margin-top: 6rem;
+	}
+}
 @media (max-width: 1168px) {    
 	#pg-2 {
 		position: relative;
