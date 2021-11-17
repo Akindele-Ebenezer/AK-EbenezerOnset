@@ -558,21 +558,13 @@ nav ul li {
 	margin: 1.59rem;
 	padding: 1.5rem;
 	
-}
-
-#ux h2 {
-	transform: translateY(.5rem); 
-}
+} 
 
 #ux-img {
 	margin-top: 1.59rem;   
 	width: 15rem;
 }
-
-.ux-txt {  
-	transform: translateY(-1.55rem);
-}
-
+ 
 #ui,
 #ux,
 #web-dev {
