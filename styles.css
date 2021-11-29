@@ -340,7 +340,9 @@ nav ul li {
 }
  
 .nav-bar-sm-screen ul {
-	background: rgba(0, 0, 0, .958); 
+	background: rgba(0, 0, 0, .958);
+	padding: 1rem;
+	width: 100vw;
 }
 
 .nav-bar-sm-screen ul a {
@@ -349,8 +351,7 @@ nav ul li {
 }
 
 .nav-bar-sm-screen ul li {
-	padding: .5rem;
-	width: 100vw;
+	padding: .5rem; 
 }
 
 .nav-bar-sm-screen ul li:hover { 
