@@ -350,6 +350,7 @@ nav ul li {
 
 .nav-bar-sm-screen ul li {
 	padding: .5rem;
+	width: 100vw;
 }
 
 .nav-bar-sm-screen ul li:hover { 
