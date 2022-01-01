@@ -2,6 +2,9 @@
 <html lang='en'>
 
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 	<link rel='stylesheet' href='styles.css'>
 	<meta charset='UTF-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,29 +57,48 @@
 	<div id='pg-2'> 
           <h1>PROJECTS</h1>
 	     <div id='projects'>
-	       <div id='project-1'>
-		<div class='projects'>
-			<a href='https://sola-boutique.netlify.app/' target='_blank'><img src='images/sola.PNG' alt='sola'></a>
-		</div>
-			<h2>Sola Boutique</h2>
-			<p class='p-text'>Sola Online Boutique is a website I created for my friend at work. She sells perfumes for both Men and Women with very nice Packages. Click the image above to checkout the website.</p>
-	       </div>
+		 
+			   <div id='project-6'>
+					<div class='projects'>
+						<a href='https://www.writerscrib.org' target='_blank'><img src='images/writers-crib.PNG' alt='writers-crib'></a>
+					</div>
+						<h2>WRITERS CRIB</h2> 
+			   </div>	
+			   
+			   <div id='project-5'>
+					<div class='projects'>
+						<a href='https://eben-techsupport.herokuapp.com' target='_blank'><img src='images/ets.PNG' alt='eben-techsupport'></a>
+					</div>
+						<h2>EBEN Techsupport</h2>
+			   </div>	
+			   
+			   <div id='project-1'>
+					<div class='projects'>
+						<a href='https://sola-boutique.netlify.app/' target='_blank'><img src='images/sola.PNG' alt='sola'></a>
+					</div>
+						<h2>Sola Boutique</h2> 
+			   </div>
 
-	       <div id='project-2'>
-		<div class='projects'>
-			<a href='https://akindele-ebenezer.github.io/EBEN-nOTEBOOK/' target='_blank'><img src='images/eben.PNG' alt='eben-notebook'></a>
-		</div>
-			<h2>EBEN nOTEBOOK</h2>
-			<p class='p-text'>This is my personal project. I'll add more features to this web application. I decided to build this app for myself to prompt me with the abilty to jot down important informations and tasks I need to perform each day I go to work. I spent a couple weeks to build this app. </p>
-	       </div> 
+			   <div id='project-2'>
+					<div class='projects'>
+						<a href='https://akindele-ebenezer.github.io/EBEN-nOTEBOOK/' target='_blank'><img src='images/eben.PNG' alt='eben-notebook'></a>
+					</div>
+						<h2>EBEN nOTEBOOK</h2> 
+			   </div> 
 
-	       <div id='project-3'>
-		<div class='projects'>
-			<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
-		</div>
-			<h2>Counter App</h2>
-			<p class='p-text'>This is the first application I've ever programmed for myself, just for fun. It's an App that can count and save the amount of numbers diplayed. </p>
-	       </div> 
+			   <div id='project-3'>
+					<div class='projects'>
+						<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
+					</div>
+						<h2>Counter App</h2> 
+			   </div>
+
+			   <div id='project-4'>
+					<div class='projects'>
+						<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
+					</div>
+						<h2>Counter App</h2> 
+			   </div>			   
 	     </div>
 	</div>
  
@@ -184,7 +206,7 @@
 		<textarea name='message' placeholder='Type message here...'></textarea> <br><br>
 	</div>
 	<div id='button'> 
-		<input id='send' type='submit' value='SEND'>
+		<button id='send' type='submit'>SEND</button>
 	</div>
       </form> 
 
