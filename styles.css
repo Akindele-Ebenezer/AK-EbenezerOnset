@@ -21,8 +21,7 @@ a:hover {
 }
 
 #about h3 {  
-	color: #ddd;
-	font-family: Lucida Console;
+	color: #ddd; 
 	font-size: 2.5rem;
 	padding-bottom: 1.5rem;
 }
@@ -34,8 +33,7 @@ a:hover {
 
 #cert { 
 	color: #333;
-	font-size: 2.5rem; 
-	font-family: Lucida Console;
+	font-size: 2.5rem;  
 	text-align: center;
 }
  
@@ -60,8 +58,7 @@ a:hover {
 }
 
 #certificates h2 {
-	color: #333;
-	font-family: Lucida Console;  
+	color: #333; 
 	text-align: center;
 }
 
@@ -102,13 +99,13 @@ form {
 	border: 1px solid #ddd;
 	border-radius: .5rem;
 	color: #333;
-	height: 52rem;
+	height: 55rem;
 	margin-bottom: 2rem;
 	padding: 1.5rem; 
 	width: 18.5rem;  
 }
 
-form button, input {
+input {
 	padding: .5rem;
 	margin-top: 1.5rem;   
 	width: 15rem;  
@@ -215,8 +212,7 @@ h2 {
 }
        
 #load h2 {
-	color: #333;
-	font-family: verdana;
+	color: #333; 
 	font-style: italic;
 }
      
@@ -299,8 +295,7 @@ nav {
 }
 
 nav a {   
-	color: #eee; 
-	font-family: Lucida Console;
+	color: #eee;  
 	text-decoration: none;
 }
  
@@ -385,8 +380,7 @@ nav ul li {
 	font-size: 2.5rem;
 }
 
-#pg-2 h1, #pg-3 { 
-	font-family: Lucida Console;
+#pg-2 h1, #pg-3 {  
 	text-align: center;
 }
  
@@ -398,8 +392,7 @@ nav ul li {
 }
 
 #pg-3 h1 { 
-	color: #333;
-	font-family: Lucida Console;
+	color: #333; 
 	font-size: 2.5rem;
 }
 
@@ -409,8 +402,7 @@ nav ul li {
 	padding: 3rem;
 }
 
-#pg-4 h2 {
-	font-family: Lucida Console;
+#pg-4 h2 { 
 	font-size: 2.2rem;
 	text-align: center;
 }
@@ -429,6 +421,7 @@ nav ul li {
 #projects { 
 	align-items: center;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -442,33 +435,29 @@ nav ul li {
 
 #project-1,
 #project-2,  
-#project-3 {    
-	height: 42rem;
+#project-3, 
+#project-4,
+#project-5,
+#project-6 {     
 	margin:.5rem;
 }
-
-#project-1 p, 
-#project-2 p,
-#project-3 p {   
-	max-width: 20rem;
-	padding: .5rem;
-}
-
+ 
 #project-1,
 #project-2,  
 #project-3,
+#project-4,
+#project-5,
+#project-6
 #web-dev,
 #ui,
 #ux {    
-	background: #fff;
-	border: 1px solid #ddd;
+	background: #fff; 
 	border-radius: .5rem;
 	padding: .6rem;
 }
 
 #projects h2 {
-	color: tomato;
-	font-family: Lucida Console; 
+	color: tomato; 
 	text-align: center;
 }
 
@@ -480,10 +469,6 @@ nav ul li {
 	margin-inline: .5rem;
 	margin-bottom: 1rem;
 	width: 20rem;
-}
-
-.p-text {
-	line-height: 2.3rem;
 }
  
 #send {
@@ -506,8 +491,7 @@ nav ul li {
 }
 
 .services h2 { 
-	color: tomato;
-	font-family: Lucida Console;
+	color: tomato; 
 	text-align: center;
 	transform: translateY(2rem);
 }
