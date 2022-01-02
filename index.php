@@ -60,14 +60,14 @@
 		 
 			   <div id='project-6'>
 					<div class='projects'>
-						<a href='https://www.writerscrib.org' target='_blank'><img src='images/writers-crib.PNG' alt='writers-crib'></a>
+						<a href='https://www.writerscrib.org' target='_blank'><img src='images/writers-crib.png' alt='writers-crib'></a>
 					</div>
 						<h2>WRITERS CRIB</h2> 
 			   </div>	
 			   
 			   <div id='project-5'>
 					<div class='projects'>
-						<a href='https://eben-techsupport.herokuapp.com' target='_blank'><img src='images/ets.PNG' alt='eben-techsupport'></a>
+						<a href='https://eben-techsupport.herokuapp.com' target='_blank'><img src='images/ets.png' alt='eben-techsupport'></a>
 					</div>
 						<h2>EBEN Techsupport</h2>
 			   </div>	
