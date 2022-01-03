@@ -660,6 +660,14 @@ nav ul li {
 
 }
 
+@media(maix-width: 446px) {
+	
+	#skills, #certificates, #footer  { 
+		justify-content: left;
+	}
+	
+}
+
 @media (max-width: 419px) {
 	nav h1 {
 		transform: translateX(-2rem);		
