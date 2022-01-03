@@ -492,8 +492,7 @@ nav ul li {
 
 .services h2 { 
 	color: tomato; 
-	text-align: center;
-	transform: translateY(2rem);
+	text-align: center; 
 }
 
 .services img {
