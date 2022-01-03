@@ -423,15 +423,7 @@ nav ul li {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-#projects img:hover , .services:hover, #skills img:hover , #certificates img:hover { 
-	border: 1px solid tomato;
-	border-radius: .5rem;
-	cursor: pointer;
-	opacity: .8;
-	transition: 1s;
-}
+} 
 
 #project-1,
 #project-2,  
