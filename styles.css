@@ -663,7 +663,7 @@ nav ul li {
 @media(maix-width: 446px) {
 	
 	#skills, #certificates, #footer  { 
-		justify-content: left;
+		justify-content: flex-start;
 	}
 	
 }
