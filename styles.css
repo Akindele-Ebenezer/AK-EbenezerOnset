@@ -477,7 +477,7 @@ nav ul li {
 .services {  
 	border-radius: .5rem;
 	height: 25rem;
-	margin: .5rem;
+	margin-inline: 3.5rem;
 	width: 20rem;	
 }
 
