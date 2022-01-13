@@ -249,7 +249,7 @@
 	    <li><a href='https://www.linkedin.com/in/akindele-ebenezer-566a16b8/' target='_blank'>LinkedIn</a></li>
 	    <li><a href='https://www.facebook.com/akindele.ebenezer/' target='_blank'>Facebook</a></li>
 	    <li><a href='https://www.instagram.com/ebenezer__/?hl=en' target='_blank'>Instagram</a></li>
-	    <li><a href='#'>Whatsapp</a></li>
+	    <li><a href='https://api.whatsapp.com/send?phone=2349052757805'>Whatsapp</a></li>
 	  </ul>
 	 </div> 
 	</div>
