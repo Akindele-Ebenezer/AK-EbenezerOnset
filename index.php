@@ -1,3 +1,19 @@
+<?php
+	
+	include "config.php";
+
+	if(isset($_POST["submit"])) {
+		$name = $_POST["name"];
+		$email = $_POST["email"];
+		$subject = $_POST["subject"];
+		$message = $_POST["message"];
+		
+		$sql = "INSERT INTO admin_inbox(name, email, subject, message, time) VALUES ('$name', '$email', '$subject', '$message', now())";
+		$query = mysqli_query($conn, $sql);
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -192,7 +208,7 @@
   </div>
  
     <div id='form'>
-      <form action="process.php" method='post'>
+      <form action="<?= $_SERVER['PHP_SELF']; ?>" method='post'>
        <h2>Message me...</h2><hr>
        <p>I'll get back to you as soon as I can</p>
 	<div id='name'>
