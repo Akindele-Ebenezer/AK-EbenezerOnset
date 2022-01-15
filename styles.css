@@ -101,13 +101,13 @@ form {
 	height: 55rem;
 	margin-bottom: 2rem;
 	padding: 1.5rem; 
-	width: 18.5rem;  
+	width: calc(100vw - 2rem);  
 }
 
 input {
 	padding: .5rem;
 	margin-top: 1.5rem;   
-	width: 15rem;  
+	width: calc(90vw - 2rem);  
 }
 
 form p {  
