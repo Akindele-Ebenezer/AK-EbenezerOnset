@@ -278,6 +278,21 @@ main {
 	background-size: cover; 
 }
  
+.message-success {
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.message-success a {
+	color: lightseagreen;
+	font-weight: bold;
+}
+
+.message-success h1 {
+ 	color: lightseagreen;
+}
+
 nav {
 	align-items: center;
 	background: #111;
