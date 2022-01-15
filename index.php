@@ -159,6 +159,11 @@
 					<img src='images/sql.jpg' id="sk-6-img" alt='sql'>
 					<p>SQL</p>	
 				</div>
+				
+				<div id='skill-7' class='skills'>
+					<img src='images/github.png' id="sk-7-img" alt='github'>
+					<p>GITHUB</p>	
+				</div>
 			</div>
     </div>
  
