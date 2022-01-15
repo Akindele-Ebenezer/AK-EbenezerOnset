@@ -289,6 +289,10 @@ main {
 	font-weight: bold;
 }
 
+.message-success div {
+	padding: 2rem;	
+}
+
 .message-success h1 {
  	color: lightseagreen;
 }
