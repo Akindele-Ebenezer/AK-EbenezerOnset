@@ -227,7 +227,7 @@
 		<textarea name='message' placeholder='Type message here...'></textarea> <br><br>
 	</div>
 	<div id='button'> 
-		<button id='send' type='submit'>SEND</button>
+		<button id='send' type='submit' name="submit">SEND</button>
 	</div>
       </form> 
 
