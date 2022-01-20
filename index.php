@@ -24,6 +24,12 @@
 	<div id='pg-2'> 
           <h1>PROJECTS</h1>
 	     <div id='projects'>
+			   <div id='project-4'>
+					<div class='projects'>
+						<a href='https://oshspring.com' target='_blank'><img src='images/osh.png' alt='oshspring'></a>
+					</div>
+						<h2>OSHSPRING Multiquest Enterprise</h2> 
+			   </div>
 		 
 			   <div id='project-6'>
 					<div class='projects'>
@@ -54,13 +60,6 @@
 			   </div> 
 
 			   <div id='project-3'>
-					<div class='projects'>
-						<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
-					</div>
-						<h2>Counter App</h2> 
-			   </div>
-
-			   <div id='project-4'>
 					<div class='projects'>
 						<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
 					</div>
