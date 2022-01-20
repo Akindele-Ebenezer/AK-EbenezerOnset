@@ -61,7 +61,7 @@
 
 			   <div id='project-3'>
 					<div class='projects'>
-						<a href='https://akindele-ebenezer.herokuapp.com' target='_blank'><img src='images/portfolio.PNG' alt='my-portfolio'></a>
+						<a href='https://akindele-ebenezer.herokuapp.com' target='_blank'><img src='images/portfolio.png' alt='my-portfolio'></a>
 					</div>
 						<h2>EBEN Portfolio</h2> 
 			   </div>			   
