@@ -28,7 +28,7 @@
 					<div class='projects'>
 						<a href='https://oshspring.com' target='_blank'><img src='images/osh.png' alt='oshspring'></a>
 					</div>
-						<h2>OSHSPRING Multiquest Enterprise</h2> 
+						<h2>OSHSPRING Enterprise</h2> 
 			   </div>
 		 
 			   <div id='project-6'>
