@@ -61,9 +61,9 @@
 
 			   <div id='project-3'>
 					<div class='projects'>
-						<a href='https://akindele-ebenezer.github.io/counter-app/' target='_blank'><img src='images/counter.PNG' alt='counter-app'></a>
+						<a href='https://akindele-ebenezer.herokuapp.com' target='_blank'><img src='images/portfolio.PNG' alt='my-portfolio'></a>
 					</div>
-						<h2>Counter App</h2> 
+						<h2>EBEN Portfolio</h2> 
 			   </div>			   
 	     </div>
 	</div>
