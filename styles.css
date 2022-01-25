@@ -623,6 +623,12 @@ nav ul li {
 	justify-content: center;
 }
 
+@media (min-width: 1866px) {
+	#projects {
+		margin-inline: 10rem;	
+	}
+}
+
 @media (max-width: 1720px) {
 	#skill-6 img {
 		margin-top: 6rem;
