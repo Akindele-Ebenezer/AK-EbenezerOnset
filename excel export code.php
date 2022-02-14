@@ -16,8 +16,8 @@ if(!$_SESSION["username"]) {
 
           
   if(isset($_POST["export_excel"])) {
-    header("Content-Type: application/xlsx");
-    header("Content-Disposition: attachment; filename=DEPASA DATA.xlsx"); 
+    header("Content-Type: application/xls");
+    header("Content-Disposition: attachment; filename=Depasa.xls");  
   }
 ?>
  
