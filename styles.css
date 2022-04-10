@@ -38,6 +38,12 @@ a:hover {
 	text-align: center;
 }
  
+#certificates {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+	
 .certificates {  
 	background: #fff;
 	border: 1px solid #ddd;
@@ -544,7 +550,7 @@ nav ul li {
 	margin-top: 6rem;
 }
 
-#skills, #certificates, #footer  {   
+#skills, #footer  {   
 	display: flex; 
 	flex-flow: row wrap;  
 }
