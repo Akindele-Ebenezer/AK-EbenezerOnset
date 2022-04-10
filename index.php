@@ -186,9 +186,8 @@
 			<h1>Let's get in touch</h1>
 			<p>I'm open for any suggestion or just to have a chat</p>
 			<p><img src='images/address.png'><strong>Address:</strong> LAGOS, Nigeria</p> <hr>
-			<p><a href="https://api.whatsapp.com/send?phone=2349052757805"><img src='images/ws.png'><strong>Whatsapp:</strong> 09052757805</a></p><hr>
-			<p><a href='mailto:tobi.akindele@gmail.com' target='_blank'><img src='images/mail.png'><strong>Email:</strong> tobi.akindele@gmail.com </a> </p><hr>
-			<p><a href='https://www.instagram.com/ebenezer__/?hl=en' target='_blank'><img src='images/ig.jpg'><strong>Instagram:</strong> @ebenezer__ </a></p><hr>
+			<p><a href='mailto:tobi.akindele@gmail.com' target='_blank'><img src='images/mail.png'><strong>Email:</strong> tobi.akindele@gmail.com </a> </p> 
+			<p><a href='https://www.instagram.com/ebenezer__/?hl=en' target='_blank'><img src='images/ig.jpg'><strong>Instagram:</strong> @ebenezer__ </a></p> 
 			<p><a href='https://www.facebook.com/akindele.ebenezer/' target='_blank'><img src='images/fb.png' id='fb'><strong>Facebook:</strong> Akindele Ebenezer </a> </p>
 		</div>
 		<div id='right'>
