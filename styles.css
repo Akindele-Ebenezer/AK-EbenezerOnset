@@ -716,7 +716,7 @@ nav ul li {
  
 @media (max-width: 395px) { 
 	#cert {
-		transform: translateX(-2.5rem); 
+		font-size: 1.5rem; 
 		
 	}
 
