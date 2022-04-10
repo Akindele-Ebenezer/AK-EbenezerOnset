@@ -28,6 +28,7 @@ a:hover {
 #about p {  
 	color: #ddd;
 	line-height: 2.3rem;
+	font-size: .9rem;
 }
 
 #cert { 
@@ -153,6 +154,10 @@ footer ul {
 	list-style: none; 
 }
 
+footer ul li {
+	font-size: .9rem;
+}
+
 #footer div { 
 	float: left;
 	height: 14rem;
@@ -176,8 +181,8 @@ html {
 	color: #333;
 }
 
-#get-in-touch h1, p {
-	line-height: 3.5rem;	
+p {
+	font-size: .9rem;	
 }
 
 #get-in-touch img {
@@ -336,8 +341,7 @@ nav h1 {
 }
  
 nav ul li {  
-	display: inline;  
-	font-size: 1.5rem;
+	display: inline;   
 	margin-inline: .5rem;
 	list-style: none;
 }
@@ -511,9 +515,9 @@ nav ul li {
 }
 
 .services p { 
+	font-size: .9rem;
 	line-height: 2.3rem;
-	margin-top: .5rem;
-	text-align: left;
+	margin-top: .5rem; 
 }
 
 #side-links {  
@@ -542,8 +546,7 @@ nav ul li {
 
 #skills, #certificates, #footer  {   
 	display: flex; 
-	flex-flow: row wrap; 
-	justify-content: center;
+	flex-flow: row wrap;  
 }
 
 #skills div {   
